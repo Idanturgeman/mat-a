@@ -4,7 +4,7 @@
  * 
  * IMPORTANT: Please write more tests - the tests here are only for example and are not complete.
  *
- * AUTHORS: <Please write your names here>
+ * AUTHORS: Idan Turgeman
  * 
  * Date: 2021-02
  */
@@ -23,7 +23,7 @@ using namespace std;
  */
 string nospaces(string input) {
 	std::erase(input, ' ');
-	std::erase(input, '\t');
+	std::erase(input, '\t'); 
 	std::erase(input, '\n');
 	std::erase(input, '\r');
 	return input;
