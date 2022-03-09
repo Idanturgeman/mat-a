@@ -7,6 +7,7 @@ using namespace std;
 
 
 
+
 TEST_CASE("Bad mat code"){
     CHECK_THROWS(mat(4,3,'@','-'));
     CHECK_THROWS(mat(7,2,'@','-'));
